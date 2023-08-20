@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "module": "commonjs",
+    "target": "es2015",
+    "outDir": "./dist"
+  },
+  "include": [
+    "src/swagger-output.json",
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "lib": [
+    "es2015"
+  ],
+  "typeRoots": [
+    "node_modules/@types"
+  ],
+  "types": [
+    "node",
+    "express"
+  ]
+}
